@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stonegames.javafx.controller.ResultController">
+    <children>
+
+        <Label fx:id="myScoreLabel" layoutX="82.0" layoutY="17.0">54
+            <font>
+                <Font name="MathJax_Main-Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="textArea" layoutX="82.0" layoutY="54.0" prefHeight="224.0" prefWidth="462.0">
+            <font>
+                <Font name="MathJax_Main-Bold" size="16.0" />
+            </font>
+        </TextArea>
+        <Button fx:id="startButton" layoutX="249.0" layoutY="287.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="51.0" prefWidth="105.0" text="Close" />
+    </children>
+</Pane>
