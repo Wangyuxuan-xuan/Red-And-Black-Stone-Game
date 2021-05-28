@@ -1,7 +1,7 @@
 package state;
 
 import org.junit.jupiter.api.Test;
-import stonegames.model.Coordinate;
+import stonegames.modelAbandoned.Coordinate;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;

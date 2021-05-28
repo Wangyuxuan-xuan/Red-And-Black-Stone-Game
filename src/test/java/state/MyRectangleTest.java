@@ -1,8 +1,8 @@
 package state;
 
 import org.junit.jupiter.api.Test;
-import stonegames.model.Coordinate;
-import stonegames.model.MyRectangle;
+import stonegames.modelAbandoned.Coordinate;
+import stonegames.modelAbandoned.MyRectangle;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
