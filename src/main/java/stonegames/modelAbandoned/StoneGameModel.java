@@ -1,4 +1,4 @@
-package stonegames.model;
+package stonegames.modelAbandoned;
 
 import org.tinylog.Logger;
 
@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
-import stonegames.javafx.controller.ResultController;
+import stonegames.javafx.Controller.ResultController;
+import stonegames.model.Player;
 import stonegames.results.WriteToGson;
 
 public class StoneGameModel {
@@ -86,7 +87,7 @@ public class StoneGameModel {
             }
         }
     }
-    public void SavePlayerDataToJson(Player player,int countMove,String playerName) {
+    public void SavePlayerDataToJson(Player player, int countMove, String playerName) {
         player.setEndTime(new Date());
         player.setCount(countMove);
         player.setScore();

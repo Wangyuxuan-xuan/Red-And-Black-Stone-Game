@@ -1,4 +1,4 @@
 /**
- * Defines the model-space representation of the Red and black game.
+ * Defines the modelAbandoned-space representation of the Red and black game.
  */
-package stonegames.model;
+package stonegames.modelAbandoned;

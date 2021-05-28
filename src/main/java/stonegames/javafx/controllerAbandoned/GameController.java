@@ -1,4 +1,4 @@
-package stonegames.javafx.controller;
+package stonegames.javafx.controllerAbandoned;
 
 import java.io.IOException;
 import java.util.List;
@@ -12,6 +12,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 
 import org.tinylog.Logger;
+import stonegames.model.Player;
 import stonegames.modelAbandoned.*;
 import stonegames.modelAbandoned.StoneGameModel;
 import java.util.Date;

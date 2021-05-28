@@ -1,4 +1,4 @@
-package stonegames.model;
+package stonegames.modelAbandoned;
 
 
 /**
