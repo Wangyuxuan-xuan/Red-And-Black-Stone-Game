@@ -12,8 +12,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 
 import org.tinylog.Logger;
-import stonegames.model.*;
-import stonegames.model.StoneGameModel;
+import stonegames.modelAbandoned.*;
+import stonegames.modelAbandoned.StoneGameModel;
 import java.util.Date;
 
 public class GameController {
